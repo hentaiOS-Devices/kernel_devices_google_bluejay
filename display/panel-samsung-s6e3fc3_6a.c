@@ -283,13 +283,11 @@ static int s6e3fc3_6a_enable(struct drm_panel *panel)
 {
 	struct exynos_panel *ctx = container_of(panel, struct exynos_panel, panel);
 	const struct exynos_panel_mode *pmode = ctx->current_mode;
-	const struct drm_display_mode *mode;
 
 	if (!pmode) {
 		dev_err(ctx->dev, "no current mode set\n");
 		return -EINVAL;
 	}
-	mode = &pmode->mode;
 
 	dev_dbg(ctx->dev, "%s\n", __func__);
 
