@@ -4,6 +4,9 @@ rel_path := ../google-modules
 
 ext_modules :=
 ext_modules += amplifiers/audiometrics
+ext_modules += amplifiers/cs35l41
+ext_modules += amplifiers/cs40l25
+ext_modules += amplifiers/cs40l26
 ext_modules += aoc
 ext_modules += aoc/alsa
 ext_modules += aoc/usb
