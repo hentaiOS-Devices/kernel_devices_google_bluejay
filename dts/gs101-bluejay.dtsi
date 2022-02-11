@@ -15,6 +15,7 @@
 #include "gs101-bluejay-display.dtsi"
 #include "gs101-bluejay-thermal.dtsi"
 #include "gs101-bluejay-pmic.dtsi"
+#include "gs101-bluejay-sbbm.dtsi"
 #include "google-base/gs101-whitefin-cp-s5200-sit-common.dtsi"
 #include "google-base/gs101-whitefin-nfc.dtsi"
 #include "google-base/gs101-slider-gsa-gsc.dtsi"
