@@ -53,8 +53,7 @@ maxim,config {
 	/* 1_B3_ATL_3113_2_100621_BC59_RC2_1028.txt http://b/204411635#comment1 */
 	maxim,atl-pack-b-1k {
 		maxim,batt-id-kohm = <1>;
-		maxim,model-version = <7>;
-		maxim,force-reset-model-data;
+		maxim,model-version = <8>;
 		maxim,fg-model = /bits/ 16 <
 			0xa4d0 0xb810 0xb950 0xb9c0 0xbb30 0xbca0 0xbe80 0xbfa0
 			0xc2d0 0xc5b0 0xc950 0xcbe0 0xcfa0 0xd520 0xdaf0 0xdce0
@@ -97,8 +96,7 @@ maxim,config {
 	/* 3_B3_LSN_3114_1_092821_BC59_RC2_1028.txt http://b/204411635#comment1 */
 	maxim,lsn-pack-b-3k {
 		maxim,batt-id-kohm = <3>;
-		maxim,model-version = <7>;
-		maxim,force-reset-model-data;
+		maxim,model-version = <8>;
 		maxim,fg-model = /bits/ 16 <
 			0xa500 0xb750 0xb8a0 0xbad0 0xbc00 0xbd10 0xbdf0 0xbee0
 			0xc080 0xc290 0xc5d0 0xc910 0xcf30 0xd270 0xd5a0 0xdc80
