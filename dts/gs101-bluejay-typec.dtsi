@@ -9,6 +9,7 @@
 &max77759tcpc {
 	ovp-present;
 	in-switch-gpio = <&max777x9_gpio 5 GPIO_ACTIVE_LOW>;
+	quick-ramp-vbus-ovp;
 };
 
 &max20339_ovp {
