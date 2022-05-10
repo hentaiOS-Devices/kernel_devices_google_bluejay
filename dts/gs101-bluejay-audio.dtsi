@@ -11,6 +11,8 @@
 
 &aoc {
 	aoc-board-cfg = "b3";
+	aoc-board-id = <0x20501>;
+	aoc-board-rev = <0x10000>;
 };
 
 /* cs40l26 is different way, fix this later */
