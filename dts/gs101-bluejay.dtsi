@@ -22,5 +22,5 @@
 #include "google-base/gs101-slider2-gps.dtsi"
 #include "google-base/gs101-whitefin2-cp-s5200-sit.dtsi"
 #include "google-base/gs101-whitefin2-pmic.dtsi"
-#include "google-base/gs101-whitefin2-bcl.dtsi"
+#include "google-base/gs101-common-bcl.dtsi"
 #include "gs101-bluejay-typec.dtsi"
