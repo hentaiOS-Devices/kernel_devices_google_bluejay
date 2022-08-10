@@ -36,7 +36,14 @@ $DEVICE_KERNEL_FILES
 "
 fi
 
-MODULES_LIST=private/devices/google/bluejay/vendor_boot_modules.bluejay
+# Concatenate vendor_boot_modules.gs101 (platform common) and vendor_boot_modules.bluejay (device specified) into one file
+POST_KERNEL_BUILD_CMDS="concat_vendor_boot_modules"
+function concat_vendor_boot_modules() {
+  cat ${KERNEL_DIR}/vendor_boot_modules.gs101 \
+    private/devices/google/bluejay/vendor_boot_modules.bluejay > \
+    ${OUT_DIR}/vendor_boot_modules.concat
+  MODULES_LIST=${OUT_DIR}/vendor_boot_modules.concat
+}
 
 VENDOR_RAMDISK_CMDS="modify_vendor_ramdisk"
 function modify_vendor_ramdisk() {
