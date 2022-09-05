@@ -93,10 +93,10 @@ maxim,config {
 			/* 0x002e */	0x03DE	/* CGain */
 		>;
 	};
-	/* 3_B3_LSN_3114_1_092821_BC59_RC2_1028.txt http://b/204411635#comment1 */
+	/* 3_B3_LSN_3114_1_092821_BC59_RC2_20220831.txt http://b/244534011#comment1 */
 	maxim,lsn-pack-b-3k {
 		maxim,batt-id-kohm = <3>;
-		maxim,model-version = <8>;
+		maxim,model-version = <9>;
 		maxim,fg-model = /bits/ 16 <
 			0xa500 0xb750 0xb8a0 0xbad0 0xbc00 0xbd10 0xbdf0 0xbee0
 			0xc080 0xc290 0xc5d0 0xc910 0xcf30 0xd270 0xd5a0 0xdc80
@@ -118,7 +118,7 @@ maxim,config {
 			/* 0x0045 */	0x022c	/* dQacc */
 			/* 0x0023 */	0x08b1	/* nFullCapNom */
 			/* 0x003A */	0xA561	/* V_empty */
-			/* 0x0012 */	0x2500	/* nQRTable00 -> QResidual00 */
+			/* 0x0012 */	0x3503	/* nQRTable00 -> QResidual00 */
 			/* 0x0022 */	0x1000	/* nQRTable10 -> QResidual10 */
 			/* 0x0032 */	0x0580	/* nQRTable20 -> QResidual20 */
 			/* 0x0042 */	0x0480	/* nQRTable30 -> QResidual30 */
