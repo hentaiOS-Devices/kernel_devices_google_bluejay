@@ -26,6 +26,7 @@ ext_modules += touch/fts/fst2
 ext_modules += touch/fts/ftm5
 ext_modules += touch/sec
 ext_modules += wlan/bcmdhd4389
+ext_modules += video/gchips
 ext_modules += ../devices/google/bluejay/display
 
 # Add any modules which have their own UAPI headers to this list.  This will
