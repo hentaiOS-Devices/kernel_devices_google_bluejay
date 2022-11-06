@@ -212,6 +212,8 @@
 					 1000
 					 1000
 					 1000>;
+
+				i2c-lock-group-id = <0>;
 			};
 
 			/* REAR ULTRA WIDE CAMERA IMX386 */
@@ -294,6 +296,8 @@
 					 1000
 					 1000
 					 1000>;
+
+				i2c-lock-group-id = <1>;
 			};
 
 			/* FRONT CAMERA IMX355 */
@@ -376,6 +380,8 @@
 					 1000
 					 1000
 					 1000>;
+
+				i2c-lock-group-id = <2>;
 			};
 
 			/* Eeprom lc898129 for imx363 */
@@ -428,6 +434,8 @@
 					<1000
 					 1000
 					 1000>;
+
+				i2c-lock-group-id = <0>;
 			};
 
 			/* Eeprom m24c64x for imx386 */
@@ -466,6 +474,8 @@
 					"regulator";
 				power-down-seq-delays-us =
 					<1000>;
+
+				i2c-lock-group-id = <1>;
 			};
 
 			/* Eeprom m24c64s for imx355 */
@@ -504,6 +514,8 @@
 					"regulator";
 				power-down-seq-delays-us =
 					<1000>;
+
+				i2c-lock-group-id = <2>;
 			};
 
 			/* Actuator lc898129 for imx363 */
@@ -558,6 +570,8 @@
 					 1000>;
 				/* Thread priority */
 				periodic-io-thread-priority = <99>;
+
+				i2c-lock-group-id = <0>;
 			};
 
 			/* Ois lc898129 for imx363 */
@@ -612,6 +626,8 @@
 					 1000>;
 				/* Thread priority */
 				periodic-io-thread-priority = <99>;
+
+				i2c-lock-group-id = <0>;
 			};
 
 			flash0: flash@0 {
