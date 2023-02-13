@@ -562,7 +562,7 @@
 					 1000
 					 1000>;
 				/* Thread priority */
-				periodic-io-thread-priority = <99>;
+				transaction-thread-priority = <99>;
 			};
 
 			/* Ois lc898129 for imx363 */
@@ -616,7 +616,7 @@
 					 1000
 					 1000>;
 				/* Thread priority */
-				periodic-io-thread-priority = <99>;
+				transaction-thread-priority = <99>;
 			};
 
 			flash0: flash@0 {
